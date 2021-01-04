@@ -1,5 +1,5 @@
 import React from "react";
-import {Button, Card, Form, Modal} from "react-bootstrap";
+import {Button, Card, Modal} from "react-bootstrap";
 import {TextField, Radio, FormControl, FormLabel, RadioGroup, FormControlLabel} from "@material-ui/core";
 
 export const Register = (props) => {
