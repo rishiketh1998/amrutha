@@ -40,8 +40,8 @@ export const Register = (props) => {
                 </Card>
             </Modal.Body>
             <Modal.Footer>
-                <Button variant="outline-danger" className="mr-2">Back</Button>
-                <Button variant="outline-success" className="mr-2" onClick={() => {props.onHide();props.showRegister();}}>Register</Button>
+                <Button variant="outline-danger" className="mr-2" onClick={() => {props.onHide(); props.showLogin()}}>Back</Button>
+                <Button variant="outline-success" className="mr-2">Register</Button>
             </Modal.Footer>
         </Modal>
     )
